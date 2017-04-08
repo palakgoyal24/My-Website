@@ -22,7 +22,7 @@
 #main-header h1 { /* Palak Goyal */
   font-family: 'Capriola', sans-serif;
   color: #e6ffff;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #222;
@@ -190,7 +190,9 @@ body{
 .skill-block{
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 30px; /*do this padding 50px for xs and xxs screen */
+  margin-bottom: 15px;
+  margin-top: 10px;
+  /*padding-bottom: 60px; do this padding 50px for xs and xxs screen */
 }
 /***** End of skills.html *****/
 #student-helpbook-tile, #restaurant-bootstrap-tile, #doctor-searchbook-tile{
@@ -324,11 +326,18 @@ body{
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  #main-header h1 { /* Palak Goyal */
+    font-size: 2.5em;
+  }
 
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+
+  #main-header h1 { /* Palak Goyal */
+    font-size: 3.5vw;2em;
+  }
 
   #nav-list a p {
     font-size: 2.5vw;/*1.3em;1.8em*/
@@ -355,6 +364,11 @@ body{
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
+  #main-header h1 { /* Palak Goyal */
+    font-size: 7vw;2em;
+  }
+
   .myPic #myPic{
     display: block;
     margin-left: auto;
@@ -394,7 +408,7 @@ body{
   /***** HEADER *****/
   #main-header h1 { /* Palak Goyal */
     padding-top: 5px;
-    font-size: 8vw;
+    font-size: 7.5vw;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;

@@ -1,0 +1,24 @@
+CACHE MANIFEST
+# 08 April 2017 23:30
+
+# explicitly cached entries
+CACHE:
+index.html
+education.html
+experience.html
+skills.html
+projects.html
+certifications.html
+js/script.js
+js/bootstrap.min.js
+js/jquery-1.11.3.min.js
+css/bootstrap.min.css
+css/bootstrap-social.css
+css/styles.css
+images
+# resources that require connectivity to function
+NETWORK:
+index.html
+
+FALLBACK:
+/ /offline.html
