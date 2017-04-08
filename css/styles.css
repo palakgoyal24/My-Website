@@ -1,0 +1,448 @@
+*{
+  box-sizing: border-box;
+  /*padding: 0;
+  margin: 0;*/
+}
+
+/***** HEADER *****/
+
+#main-header{
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  background-color: #85e0e0;
+  font-family: 'Righteous', cursive;
+  /*padding-bottom: 20px;*/
+}
+
+#main-header div a,#main-header div a:hover, #main-header div a:focus {
+  text-decoration: none;
+}
+
+#main-header h1 { /* Palak Goyal */
+  font-family: 'Capriola', sans-serif;
+  color: #e6ffff;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#main-header a{
+  color: #e6ffff;
+}
+
+/***** Navbar*******/
+#header-nav{
+  background-color: #85e0e0;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav .container{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*****Nav Bar List******/
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  text-align: center;
+}
+#nav-list a {
+  color: #663300;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a p {
+  font-size: 1.8em;/*1.8em*/
+  font-family:  sans-serif, serif; /*'Comic Sans MS',*/
+}
+ul li.active {
+    background-color: #cceeff;
+    opacity: .8;
+}
+#nav-list hr{
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+} /*** End of Nav Bar List****/
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 30px;
+}
+/*** End of Nav Bar*****/
+
+/***** END OF HEADER *****/
+
+/***** MAIN CONTENT *****/
+body{
+  font-size: 16px;
+  color: ;
+  background-color: ;
+  font-family: 'PT Sans', sans-serif;
+  /*'Nunito Sans', sans-serif;*/
+}
+
+/***** INDEX.HTML *****/
+#myTitle{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#currentLocation{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.myText{
+  font-size: 22px;
+}
+
+#map-tile {
+  height: 450px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/***** End of index.html *****/
+
+/***** experience.html *****/
+.company{
+  padding: 15px;
+}
+
+.company section{
+  position: relative;
+}
+
+#accentureTitle, #prathamTitle, #pratahkalTitle{
+  position: absolute;
+  top: 0;
+  right:0;
+  margin-top: 0;
+  padding:5px;
+}
+
+#accentureText, #prathamText, #pratahkalText{
+  /*border: 1px solid black;*/
+  border-radius: 20px;
+  width: 100%;
+  padding: 100px 20px 20px 20px;
+  font-family: serif;
+  background-color: #e0ebeb;
+  color: black;
+  /*text-align: justify;*/
+}
+/***** End of experience.html *****/
+
+/***** skills.html *****/
+.skill-title{
+  background-color: #009999;
+  border-radius: 15px;
+  /*display: inline-flex;*/
+  font-size: 1.8em;
+  color: white;
+  padding : 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+#skill-row{
+  /*padding-top: 20px;*/
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.logo{
+  padding : 0;
+  /*text-align: center;*/
+}
+
+.skill-block{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px; /*do this padding 50px for xs and xxs screen */
+}
+/***** End of skills.html *****/
+#student-helpbook-tile, #restaurant-bootstrap-tile, #doctor-searchbook-tile{
+  height: 200px;
+  width: 100%;
+  /*margin-bottom: 15px;*/
+  position: relative;
+  /*border: 1px solid ;#00b3b3*/
+  box-shadow: 0 1px 2px 1px #f0f5f5; /*#cccccc*/
+  overflow: hidden;
+}
+
+#student-helpbook-tile:hover, #restaurant-bootstrap-tile:hover, #doctor-searchbook-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#technologies{
+  display: none;
+  text-align: center;
+  font-size: 16px;
+  font-style:normal;
+  margin-top: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#student-helpbook-tile {
+  background: url('../images/student.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+#restaurant-bootstrap-tile {
+  background: url('../images/restaurant.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  /*width: auto;
+  height: auto;*/
+}
+#doctor-searchbook-tile{
+    background: url('../images/doctor.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#student-helpbook-tile span, #restaurant-bootstrap-tile span, #doctor-searchbook-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #669999; /*#ccffff;black;#00b3b3;*/
+  color: #fff;
+  opacity: .8;
+}
+
+.text-tile{
+  background: #d1e0e0 none repeat scroll 0 0;#669999,#f2f2f2 #f0f5f5 #b3cccc
+  margin-bottom: 30px;
+  padding: 20px;40px 40px 45px;
+  text-align: center;
+  /*box-shadow: 0 1px 2px 1px #f0f5f5;*/
+}
+
+.text-tile h3{
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: .85;
+}
+
+.text-tile p{
+  font-size: 0.8em;
+}
+/***** projects.html *****/
+
+/***** End of projects.html *****/
+
+/***** certifications.html *****/
+/*Jumbotron*/
+.jumbotron{
+  background: url('../images/white.jpg') no-repeat;
+  background-size: 1200px 1000px;
+  /*background-color: white;*/
+  height: 500px;
+  border: 0.2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 90px;
+  color: #196666;
+}
+
+.jumbotron span{
+  position: relative;
+  top: 125px;
+}
+/* End of Jumbotron */
+
+/***** End of certifications.html *****/
+
+/***** END OF MAIN CONTENT *****/
+
+/***** FOOTER *****/
+.my-footer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  background-color: #004d4d;
+  color: white;
+  border-top: 0;
+}
+.my-footer div.row {
+  margin: 10px;
+}
+#social-footer{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/***** END OF FOOTER *****/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .jumbotron{
+    font-size: 60px;
+    background-size: 1150px 500px;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #nav-list a p {
+    font-size: 2.5vw;/*1.3em;1.8em*/
+  }
+
+  .myText{
+    font-size: 20px;
+  }
+
+  .myPic #myPic{
+    height: 320px;
+    width: 200px
+  }
+
+  .projects{
+    padding-bottom: 15px;
+  }
+
+  .jumbotron{
+    font-size: 60px;
+    background-size: 750px 500px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .myPic #myPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 250px;
+    padding-bottom: 20px;
+  }
+  .myText{
+    font-size: 18px;
+  }
+
+  .projects{
+    padding-bottom: 15px;
+  }
+
+  #student-helpbook-tile, #restaurant-bootstrap-tile, #doctor-searchbook-tile{
+    height: 350px;
+    width: 100%;
+  }
+
+  #social-icons{
+    text-align: center;
+  }
+  #copyright{
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+.skill-block{
+  padding-bottom: 20px;
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /***** HEADER *****/
+  #main-header h1 { /* Palak Goyal */
+    padding-top: 5px;
+    font-size: 8vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /***** END OF HEADER */
+
+  .myPic #myPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 200px;
+    padding-bottom: 20px;
+  }
+
+  #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid #3F0C1F;
+    overflow: auto;
+  }
+
+  .skill-block{
+    padding-bottom: 20px;
+  }
+
+  .projects{
+    padding-bottom: 15px;
+  }
+
+  #student-helpbook-tile, #restaurant-bootstrap-tile, #doctor-searchbook-tile{
+    height: 200px;
+    width: 100%;
+  }
+
+  .jumbotron{
+    font-size: 60px;
+    background-size: 500px 500px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
