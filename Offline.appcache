@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 08 April 2017 23:30
+# 12 April 2017 17:20
 
 # explicitly cached entries
 CACHE:
@@ -15,7 +15,30 @@ js/jquery-1.11.3.min.js
 css/bootstrap.min.css
 css/bootstrap-social.css
 css/styles.css
-images
+images\accenture.png
+images\angular.png
+images\cd-icon-surrey.png
+images\css3logo.png
+images\doctor.png
+images\drupal-logo.png
+images\HTML5-logo.png
+images\IISlogo.jpg
+images\jquery.png
+images\js-logo.png
+images\MPSTME.jpg
+images\MySQL.png
+images\nm.png
+images\nodejs.png
+images\Palak.png
+images\PHP-logo.png
+images\pratahkal.png
+images\pratham.png
+images\responsive.jpg
+images\restaurant.png
+images\student.png
+images\twitter-bootstrap.jpg
+images\University_of_Surrey_Logo.png
+images\white.jpg
 # resources that require connectivity to function
 NETWORK:
 index.html
